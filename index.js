@@ -19,12 +19,12 @@ var keepGoing = (array, changeValue, skipValue) => {
 
 var findBy = (array, findFn) => {
   return array.forEach(findFn)
-  array.forEach(function(element) {
-   if (element === findFn) {
-     return element
-   } 
-  })
-  return null
+  // array.forEach(function(element) {
+  // if (element === findFn) {
+  //   return element
+  // } 
+  // })
+  // return null
 }
 
 // var findFn = (element) => {
